@@ -1,0 +1,1895 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 12,
+      "symbol": "YUDefaults",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 13,
+      "symbol": "UUID",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 25,
+      "symbol": "YUPrint(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 31,
+      "symbol": "YUPrintTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 37,
+      "symbol": "anyobjectConvertDic(any:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 45,
+      "symbol": "AnyBlock",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 48,
+      "symbol": "huiDiaoString",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 50,
+      "symbol": "huiDiaoValue",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 51,
+      "symbol": "blockClick",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 52,
+      "symbol": "huiDiaoAny",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 53,
+      "symbol": "huiDiaoBoolString",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 54,
+      "symbol": "huiDiaoBool",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 55,
+      "symbol": "funcBlock",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 60,
+      "symbol": "printLog(_:file:method:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 71,
+      "symbol": "kScreenH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 73,
+      "symbol": "kScreenW",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 75,
+      "symbol": "kTabBarH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 78,
+      "symbol": "normalRGBA(r:g:b:a:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 83,
+      "symbol": "kBtnWhite",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 84,
+      "symbol": "kBtnDisabledWhite",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 85,
+      "symbol": "kBtnGreen",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 86,
+      "symbol": "kBtnDisabledGreen",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 87,
+      "symbol": "kBtnRed",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 89,
+      "symbol": "kSplitLineColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 91,
+      "symbol": "kCommonBgColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 92,
+      "symbol": "kSectionColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 94,
+      "symbol": "kNavBarBgColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 97,
+      "symbol": "kChatBoxColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 98,
+      "symbol": "kLineGrayColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 102,
+      "symbol": "LXFLog(_:file:funcName:lineNum:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 116,
+      "symbol": "kNoteContactUpdateFriends",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 118,
+      "symbol": "kNoteChatMsgInsertMsg",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 120,
+      "symbol": "kNoteChatMsgUpdateMsg",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 122,
+      "symbol": "kNoteChatMsgResendMsg",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 124,
+      "symbol": "kNoteChatMsgTapImg",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 126,
+      "symbol": "kNoteChatMsgAudioPlayEnd",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 128,
+      "symbol": "kNoteChatMsgVideoPlayStart",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 130,
+      "symbol": "kNoteChatBarRecordBtnLongTapBegan",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 131,
+      "symbol": "kNoteChatBarRecordBtnLongTapChanged",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 132,
+      "symbol": "kNoteChatBarRecordBtnLongTapEnded",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 134,
+      "symbol": "kNoteWeChatGoBack",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/Define.swift",
+      "line": 137,
+      "symbol": "kAppKey",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 13,
+      "symbol": "RGBAColor(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 17,
+      "symbol": "RGBA(r:g:b:a:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 21,
+      "symbol": "PRGBColor(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 25,
+      "symbol": "YUBGCOLOR",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 28,
+      "symbol": "LOGINBGCOLOR",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 29,
+      "symbol": "LOGINBUTTONCOLOR",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 34,
+      "symbol": "wxColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 36,
+      "symbol": "wxChatColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 41,
+      "symbol": "airColor",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 42,
+      "symbol": "whiteS",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 44,
+      "symbol": "LOGINTEXTCOLOR",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineColor.swift",
+      "line": 46,
+      "symbol": "WHITECOLOR",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 11,
+      "symbol": "IPHONEFIVE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 12,
+      "symbol": "IPHONESEVEN",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 13,
+      "symbol": "IPHONEPLUS",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 32,
+      "symbol": "ISIXH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 51,
+      "symbol": "FONT_SIZE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 59,
+      "symbol": "TABBARH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 60,
+      "symbol": "BATTERYH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineFrame.swift",
+      "line": 61,
+      "symbol": "NAVBARH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 16,
+      "symbol": "PUSHMESSAGE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 34,
+      "symbol": "GUANGGAO",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 35,
+      "symbol": "WIFISSIDURL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 38,
+      "symbol": "XCPAY",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 43,
+      "symbol": "LOGINURL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 44,
+      "symbol": "REGISTURL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 45,
+      "symbol": "CHANGEPWDURL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 47,
+      "symbol": "ORDERLIST",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 48,
+      "symbol": "ORDERDETAIL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 50,
+      "symbol": "GETPAIDUI",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 52,
+      "symbol": "ADDPUSH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 54,
+      "symbol": "GETDANGKOU",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 59,
+      "symbol": "ORDERJIAMI",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 60,
+      "symbol": "MOBILEPAYJM",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 61,
+      "symbol": "MOBILEWXPAYJM",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 86,
+      "symbol": "GETTIME",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 87,
+      "symbol": "CHANGETIME",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 90,
+      "symbol": "MSHD",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 92,
+      "symbol": "DCTJ",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 96,
+      "symbol": "ADDDEVICE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 97,
+      "symbol": "DELDEVICE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 102,
+      "symbol": "RESETPWDURL",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 104,
+      "symbol": "GETDAYHOUR",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 105,
+      "symbol": "GETROOM",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 116,
+      "symbol": "QUERYHISTORY",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUDefine/YUDefineURL.swift",
+      "line": 121,
+      "symbol": "GROUPTASK",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/DataExtension.swift",
+      "line": 28,
+      "symbol": "Data.toImage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/DataExtension.swift",
+      "line": 44,
+      "symbol": "Data.init(fromArray:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/DataExtension.swift",
+      "line": 49,
+      "symbol": "Data.toArray(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/IntExtension.swift",
+      "line": 51,
+      "symbol": "Double.format(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/IntExtension.swift",
+      "line": 55,
+      "symbol": "Double.format(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/IntExtension.swift",
+      "line": 61,
+      "symbol": "Float.format(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/IntExtension.swift",
+      "line": 65,
+      "symbol": "Float.format(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 13,
+      "symbol": "String.toDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 22,
+      "symbol": "String.greentoHereTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 49,
+      "symbol": "String.timeStampDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 86,
+      "symbol": "Date.year",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 91,
+      "symbol": "Date.month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 96,
+      "symbol": "Date.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 101,
+      "symbol": "Date.hour",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 106,
+      "symbol": "Date.minute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 111,
+      "symbol": "Date.second",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 116,
+      "symbol": "Date.nanosecond",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 121,
+      "symbol": "Date.getOne()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 261,
+      "symbol": "Date.dayOfWeek()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 278,
+      "symbol": "Date.weekEN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 287,
+      "symbol": "Date.weekCronNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 308,
+      "symbol": "Date.cronWeekTime(cronweeks:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 344,
+      "symbol": "Date.homeDay()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 356,
+      "symbol": "Date.LocalTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 393,
+      "symbol": "Date.Localmillisecond()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 440,
+      "symbol": "Date.add(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 460,
+      "symbol": "Date.DayBefore(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 500,
+      "symbol": "String.cronToDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 510,
+      "symbol": "String.cronToWeekDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 550,
+      "symbol": "Formater.YMDhm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 551,
+      "symbol": "Formater.ymdhms",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 552,
+      "symbol": "Formater.MDhms",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 553,
+      "symbol": "Formater.ymd",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 554,
+      "symbol": "Formater.y",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 555,
+      "symbol": "Formater.hm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 556,
+      "symbol": "Formater.M",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 557,
+      "symbol": "Formater.MD",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 558,
+      "symbol": "Formater.md",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 559,
+      "symbol": "Formater.ymdWX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/NSDateExtension.swift",
+      "line": 561,
+      "symbol": "Formater.PushTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 12,
+      "symbol": "NSString.sizeWithFont(font:maxSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 282,
+      "symbol": "String.isNullOrEmpty(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 293,
+      "symbol": "String.getRectSize(text:font:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 302,
+      "symbol": "String.getWidth(font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 308,
+      "symbol": "String.getHeight(font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 316,
+      "symbol": "String.getWH(font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/StringExtension.swift",
+      "line": 326,
+      "symbol": "String.getHeigh(font:width:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 100,
+      "symbol": "Double.millisecond",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 101,
+      "symbol": "Double.milliseconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 102,
+      "symbol": "Double.ms",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 104,
+      "symbol": "Double.second",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 105,
+      "symbol": "Double.seconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 107,
+      "symbol": "Double.minute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 108,
+      "symbol": "Double.minutes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 110,
+      "symbol": "Double.hour",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 111,
+      "symbol": "Double.hours",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 113,
+      "symbol": "Double.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/TimerExtension.swift",
+      "line": 114,
+      "symbol": "Double.days",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/FoundationExtension/URLExtension.swift",
+      "line": 31,
+      "symbol": "URL.open()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 35,
+      "symbol": "UITableView.scrollViewToBottom(animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 56,
+      "symbol": "UITableView.hideSeparatorLeftInset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 125,
+      "symbol": "UITableView.setGroupHeaderZeroFrame(x:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 143,
+      "symbol": "Reusable.reuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 144,
+      "symbol": "Reusable.nib",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 150,
+      "symbol": "Reusable.reuseIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 151,
+      "symbol": "Reusable.nib",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 186,
+      "symbol": "UITableView.dequeueReusableCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 190,
+      "symbol": "UITableView.aregisterReusableHeaderFooterView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 202,
+      "symbol": "UITableView.adequeueReusableHeaderFooterView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 208,
+      "symbol": "UICollectionView.registerReusableCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 216,
+      "symbol": "UICollectionView.dequeueReusableCell(indexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 220,
+      "symbol": "UICollectionView.registerReusableSupplementaryView(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/TableViewExtension.swift",
+      "line": 228,
+      "symbol": "UICollectionView.dequeueReusableSupplementaryView(_:indexPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIButtonExtension.swift",
+      "line": 14,
+      "symbol": "UIButton.initWithC(_:frame:imgName:target:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 19,
+      "symbol": "UIImageColors",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 20,
+      "symbol": "UIImageColors.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 21,
+      "symbol": "UIImageColors.primaryColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 22,
+      "symbol": "UIImageColors.secondaryColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 23,
+      "symbol": "UIImageColors.detailColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 52,
+      "symbol": "UIColor.components",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 57,
+      "symbol": "UIColor.isDarkColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 62,
+      "symbol": "UIColor.isBlackOrWhite",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 67,
+      "symbol": "UIColor.isDistinct(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 83,
+      "symbol": "UIColor.colorWithMinimumSaturation(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 97,
+      "symbol": "UIColor.isContrastingColor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 111,
+      "symbol": "UIImage.resize(newSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 120,
+      "symbol": "UIImage.getColors()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIImageColors.swift",
+      "line": 126,
+      "symbol": "UIImage.getColors(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UILabelExtenstion.swift",
+      "line": 27,
+      "symbol": "UILabel.autoHeightMax()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UILabelExtenstion.swift",
+      "line": 44,
+      "symbol": "UILabel.vipText(text:vipText:vipStart:vipFont:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UILabelExtenstion.swift",
+      "line": 50,
+      "symbol": "UILabel.vipText(text:vipText:vipStart:vipFont:vipColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UILabelExtenstion.swift",
+      "line": 57,
+      "symbol": "UILabel.vipText(text:ftext:fstart:fontSize:ctext:cstart:color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UITabBarControllerExtension.swift",
+      "line": 46,
+      "symbol": "UITabBarController.tabBarAndBadge(_:index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewControllerExtension.swift",
+      "line": 13,
+      "symbol": "UIViewController.showAlert(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewControllerExtension.swift",
+      "line": 91,
+      "symbol": "UIViewController.showAlert(_:_:handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewControllerExtension.swift",
+      "line": 104,
+      "symbol": "UIViewController.showAlertMessage(_:_:handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewControllerExtension.swift",
+      "line": 138,
+      "symbol": "UIViewController.showAlertThree(cancleTitle:title:twoTitle:_:alertAction:alertActionT:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 21,
+      "symbol": "YUDirection.s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 21,
+      "symbol": "YUDirection.x",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 21,
+      "symbol": "YUDirection.y",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 21,
+      "symbol": "YUDirection.z",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 65,
+      "symbol": "UIView.centerX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 74,
+      "symbol": "UIView.centerY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 83,
+      "symbol": "UIView.size()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 87,
+      "symbol": "UIView.size(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 103,
+      "symbol": "UIView.origin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 127,
+      "symbol": "UIView.bottomY(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 133,
+      "symbol": "UIView.addTopBorder(color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 139,
+      "symbol": "UIView.addBottomBorder(color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 145,
+      "symbol": "UIView.addLeftBorder(color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 151,
+      "symbol": "UIView.addRightBorder(color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 158,
+      "symbol": "UIView.addBorder(direction:color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 202,
+      "symbol": "UIView.BorderDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 203,
+      "symbol": "UIView.BorderDirection.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 204,
+      "symbol": "UIView.BorderDirection.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 205,
+      "symbol": "UIView.BorderDirection.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 206,
+      "symbol": "UIView.BorderDirection.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewExtension.swift",
+      "line": 211,
+      "symbol": "CGRect.init(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 16,
+      "symbol": "UIView.showRedAt(offsetX:offsetY:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 116,
+      "symbol": "UIView.hideRedPoint()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 121,
+      "symbol": "UIView.removeBadgeNumber()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 131,
+      "symbol": "UIView.removeRedPoint()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 142,
+      "symbol": "UIView.showBadgeOnItemIndex(index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 168,
+      "symbol": "UIView.hideBadgeOnItemIndex(index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/UIViewRedPointExtension.swift",
+      "line": 178,
+      "symbol": "UIView.removeBadgeOnItemIndex(index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/YUImageExtension.swift",
+      "line": 21,
+      "symbol": "UIImage.createImage(color:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/YUImageExtension.swift",
+      "line": 66,
+      "symbol": "UIImage.getPixelColor(pos:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/YUImageExtension.swift",
+      "line": 157,
+      "symbol": "UIImage.scaleTo(newSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUExtension/UIKitExtension/YUImageExtension.swift",
+      "line": 165,
+      "symbol": "UIImage.tint(_:blendMode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUModel/YUTabBarItem.swift",
+      "line": 13,
+      "symbol": "YUTabBarItem.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUModel/YUTabBarItem.swift",
+      "line": 14,
+      "symbol": "YUTabBarItem.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUModel/YUTabBarItem.swift",
+      "line": 15,
+      "symbol": "YUTabBarItem.selectedImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUModel/YUTabBarItem.swift",
+      "line": 16,
+      "symbol": "YUTabBarItem.childVC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUModel/YUTabBarItem.swift",
+      "line": 18,
+      "symbol": "YUTabBarItem.init(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/CreateQRCode.swift",
+      "line": 34,
+      "symbol": "CreateQRCode",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/CreateQRCode.swift",
+      "line": 37,
+      "symbol": "CreateQRCode.creatQRCodeImage(_:icon:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/CreateQRCode.swift",
+      "line": 57,
+      "symbol": "CreateQRCode.creatImage(_:iconImage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/CreateQRCode.swift",
+      "line": 78,
+      "symbol": "CreateQRCode.createNonInterpolatedUIImageFormCIImage(_:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/JSExt.swift",
+      "line": 14,
+      "symbol": "JSContext.loadJS(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/MakeSound.swift",
+      "line": 33,
+      "symbol": "MakeSound.Sound()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/MakeSound.swift",
+      "line": 42,
+      "symbol": "MakeSound.playSuccessSound()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/MakeSound.swift",
+      "line": 69,
+      "symbol": "MakeSound.systemVibration()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/MakeSound.swift",
+      "line": 96,
+      "symbol": "MakeSound.playVoice(_:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/MathTool.swift",
+      "line": 11,
+      "symbol": "YUMath",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/NumberCheck.swift",
+      "line": 11,
+      "symbol": "NumberCheck",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/NumberCheck.swift",
+      "line": 25,
+      "symbol": "NumberCheck.isBeeid(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/WIFISSID.swift",
+      "line": 12,
+      "symbol": "WifiSSID",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/WIFISSID.swift",
+      "line": 13,
+      "symbol": "WifiSSID.getSSID()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 37,
+      "symbol": "YUFile",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 47,
+      "symbol": "YUFile.headPhoto",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 57,
+      "symbol": "YUFile.pngTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 61,
+      "symbol": "YUFile.voiceTime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 66,
+      "symbol": "YUFile.appendAAC(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 83,
+      "symbol": "YUFile.pathWithName(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 222,
+      "symbol": "YUFile.appPath",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 247,
+      "symbol": "YUFile.appendDocument(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 352,
+      "symbol": "YUFile.copy(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 370,
+      "symbol": "YUFile.move(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 406,
+      "symbol": "YUFile.deleteAllFile(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUFile.swift",
+      "line": 438,
+      "symbol": "YUFile.getall(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUImageTool.swift",
+      "line": 11,
+      "symbol": "YUImageTool",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUImageTool.swift",
+      "line": 13,
+      "symbol": "YUImageTool.groupHead(imgs:pngname:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUImageTool.swift",
+      "line": 101,
+      "symbol": "YUImageTool.composeImg(img:img1:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUImageTool.swift",
+      "line": 127,
+      "symbol": "YUImageTool.drawImages(imageArray:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUImageTool.swift",
+      "line": 165,
+      "symbol": "YUImageTool.combine(leftImage:rightImage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUNoticfiction.swift",
+      "line": 34,
+      "symbol": "YUNoticfiction",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUNoticfiction.swift",
+      "line": 36,
+      "symbol": "YUNoticfiction.add(_:selector:name:object:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUNoticfiction.swift",
+      "line": 39,
+      "symbol": "YUNoticfiction.remove(_:name:object:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUNoticfiction.swift",
+      "line": 42,
+      "symbol": "YUNoticfiction.remove(_:name:object:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YUNoticfiction.swift",
+      "line": 46,
+      "symbol": "YUNoticfiction.addNotifiction(_:timeDouble:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": null,
+      "symbol": "YURecordTool",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 12,
+      "symbol": "YURecordToolDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 13,
+      "symbol": "YURecordToolDelegate.recordTool(recordTool:didstartRecoring:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 14,
+      "symbol": "YURecordToolDelegate.recordToolDidFinishPlay(recordTool:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 18,
+      "symbol": "YURecordTool",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 128,
+      "symbol": "YURecordTool.updateImage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 194,
+      "symbol": "YURecordTool.audioRecorderDidFinishRecording(_:successfully:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/YURecordTool.swift",
+      "line": 200,
+      "symbol": "YURecordTool.audioPlayerDidFinishPlaying(_:successfully:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/hehe.swift",
+      "line": 12,
+      "symbol": "Local",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/hehe.swift",
+      "line": 72,
+      "symbol": "hehe",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/hehe.swift",
+      "line": 75,
+      "symbol": "hehe.clientID()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/YUKit/YUTools/hehe.swift",
+      "line": 91,
+      "symbol": "hehe.randomStringWithLength(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit"
+}

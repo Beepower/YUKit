@@ -1,0 +1,10 @@
+framework module YUKit {
+  umbrella header "YUKit.h"
+
+  export *
+  module * { export * }
+}
+
+module YUKit.__Swift {
+    exclude header "YUKit-Swift.h"
+}
