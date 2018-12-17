@@ -42,6 +42,10 @@ open class YUNoticfiction: NSObject {
     public static func remove(_ observer: Any,name: NSNotification.Name?,object: Any? = nil) {
         NotificationCenter.default.removeObserver(observer, name: name, object: object)
     }
+    public static func post(_ name: String, _ observer: Any, _ userInfo: [AnyHashable : Any]? = nil) {
+        NotificationCenter.default.post(name: NSNotification.Name.init(name), object: observer, userInfo: userInfo)
+    }
+    //open func post(name aName: NSNotification.Name, object anObject: Any?, userInfo aUserInfo: [AnyHashable : Any]? = nil)
     
     public class func addNotifiction(_ alertString: String,timeDouble: Double) {
         let notification = UILocalNotification()
