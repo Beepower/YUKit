@@ -30,7 +30,7 @@ extension UIViewController {
     ///   - title: title
     ///   - message: message
     ///   - handler: handler
-    public func showCanOKAlert(title: String?, message: String?,handler: ((UIAlertAction) -> Void)?) {
+    public func showCanOKAlert(_ title: String?, message: String? = nil,handler: ((UIAlertAction) -> Void)?) {
         let alertController = UIAlertController(title: title,message: message,preferredStyle: .alert)
         let cancle = UIAlertAction(title: "取消", style: .cancel, handler: nil)
         alertController.addAction(cancle)
@@ -159,7 +159,7 @@ extension UIViewController {
     ///   - message: message
     ///   - preferredStyle: preferredStyle
     ///   - alertActions: [UIAlertAction]
-    public func showAlert(title: String?, message: String?, preferredStyle: UIAlertControllerStyle,alertActions: [UIAlertAction]) {
+    public func showAlert(title: String?, message: String?, preferredStyle: UIAlertControllerStyle, alertActions: [UIAlertAction]) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
         for a in alertActions {
             alertController.addAction(a)

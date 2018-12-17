@@ -21,6 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0313BEDC21C7749E00A98B4F /* TableDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0313BED921C7749E00A98B4F /* TableDefault.swift */; };
+		0313BEDD21C7749E00A98B4F /* YUListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0313BEDA21C7749E00A98B4F /* YUListItem.swift */; };
+		0313BEDE21C7749E00A98B4F /* YUListGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0313BEDB21C7749E00A98B4F /* YUListGroup.swift */; };
 		0315F4511FAAFA0000D42391 /* WIFISSID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F42D1FAAFA0000D42391 /* WIFISSID.swift */; };
 		0315F4521FAAFA0000D42391 /* YULaunchAdMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F42E1FAAFA0000D42391 /* YULaunchAdMonitor.swift */; };
 		0315F4531FAAFA0000D42391 /* YULaunchImageADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F42F1FAAFA0000D42391 /* YULaunchImageADView.swift */; };
@@ -84,6 +87,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0313BED921C7749E00A98B4F /* TableDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDefault.swift; sourceTree = "<group>"; };
+		0313BEDA21C7749E00A98B4F /* YUListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUListItem.swift; sourceTree = "<group>"; };
+		0313BEDB21C7749E00A98B4F /* YUListGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUListGroup.swift; sourceTree = "<group>"; };
 		0315F42D1FAAFA0000D42391 /* WIFISSID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WIFISSID.swift; sourceTree = "<group>"; };
 		0315F42E1FAAFA0000D42391 /* YULaunchAdMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YULaunchAdMonitor.swift; sourceTree = "<group>"; };
 		0315F42F1FAAFA0000D42391 /* YULaunchImageADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YULaunchImageADView.swift; sourceTree = "<group>"; };
@@ -303,6 +309,9 @@
 			isa = PBXGroup;
 			children = (
 				03E08F002004B65200FCD43F /* YUTabBarItem.swift */,
+				0313BED921C7749E00A98B4F /* TableDefault.swift */,
+				0313BEDB21C7749E00A98B4F /* YUListGroup.swift */,
+				0313BEDA21C7749E00A98B4F /* YUListItem.swift */,
 			);
 			path = YUModel;
 			sourceTree = "<group>";
@@ -448,6 +457,7 @@
 				0315F4731FAAFA0000D42391 /* YUThreadTool.swift in Sources */,
 				03E08F012004B65200FCD43F /* YUTabBarItem.swift in Sources */,
 				0315F4511FAAFA0000D42391 /* WIFISSID.swift in Sources */,
+				0313BEDC21C7749E00A98B4F /* TableDefault.swift in Sources */,
 				0315F46E1FAAFA0000D42391 /* YUOperation.swift in Sources */,
 				0315F4561FAAFA0000D42391 /* ColorString.swift in Sources */,
 				0315F4661FAAFA0000D42391 /* CRegex.swift in Sources */,
@@ -458,6 +468,7 @@
 				0315F4531FAAFA0000D42391 /* YULaunchImageADView.swift in Sources */,
 				0315F4621FAAFA0000D42391 /* YUUserDefaults.swift in Sources */,
 				03BC15F41FA89B7B000B7BA5 /* UITabBarControllerExtension.swift in Sources */,
+				0313BEDE21C7749E00A98B4F /* YUListGroup.swift in Sources */,
 				0315F4691FAAFA0000D42391 /* YUShake.swift in Sources */,
 				0315F45B1FAAFA0000D42391 /* YURecordTool.swift in Sources */,
 				0315F46D1FAAFA0000D42391 /* CreateQRCode.swift in Sources */,
@@ -468,6 +479,7 @@
 				03BC15FE1FA89BC8000B7BA5 /* YUDefineFrame.swift in Sources */,
 				03BC15EB1FA89B7B000B7BA5 /* UIButtonExtension.swift in Sources */,
 				03BC15F61FA89B7B000B7BA5 /* UITabBarExtenstion.swift in Sources */,
+				0313BEDD21C7749E00A98B4F /* YUListItem.swift in Sources */,
 				0315F4521FAAFA0000D42391 /* YULaunchAdMonitor.swift in Sources */,
 				0315F4581FAAFA0000D42391 /* YUNoticfiction.swift in Sources */,
 				03BC15E71FA89B7B000B7BA5 /* IntExtension.swift in Sources */,
