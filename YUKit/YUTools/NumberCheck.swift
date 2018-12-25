@@ -17,7 +17,7 @@ open class NumberCheck: NSObject {
     public class func isValidateMobile(_ mobile: String) -> Bool {
          //手机号以13， 15，18开头，八个 \\d 数字字符
         //let phoneRegex = "^((13[0-9])|(15[^4,\\\\D])|(18[0,0-9]))\\\\d{8}$"
-        let phoneRegex = "1[34578]([0-9]){9}"
+        let phoneRegex = "1[134578]([0-9]){9}"
         let phoneTest: NSPredicate = NSPredicate(format: "SELF MATCHES %@" ,phoneRegex)
         return phoneTest.evaluate(with: mobile)
     }
