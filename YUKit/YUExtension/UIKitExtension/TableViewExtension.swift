@@ -85,6 +85,22 @@ extension UITableView {
         }
     }
     
+    /// 没有数据的时候显示view
+    ///
+    /// - Parameters:
+    ///   - view: view
+    ///   - rowCount: 返回数量
+    public func nodataView(_ view: UIView,_ rowCount: Int) -> Int {
+        if (rowCount == 0) {
+            self.backgroundView = view
+            self.separatorStyle = .none
+        } else {
+            self.backgroundView = nil
+            self.separatorStyle = .singleLine
+        }
+        return rowCount
+    }
+    
     /**
      设置分组TableView的头部section高
      */
