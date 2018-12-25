@@ -22,8 +22,8 @@
 //        ====='-.____'.___ \_____/___.-'____.-'=====
 //                          '=---='
 //
-//            微信号:ioschen
-//            博客地址:http://ioschen.com
+//            微信号: ioschen
+//            博客地址: http://ioschen.com
 //
 //  CreateQRCode.swift
 //  BeePowerPerson
@@ -33,6 +33,23 @@ import UIKit
 
 open class CreateQRCode: NSObject {
 
+    //MARK: -传进去字符串,生成二维码
+    public static func image(_ text: String) -> UIImage{
+        //创建滤镜
+        let filter = CIFilter(name: "CIQRCodeGenerator")
+        //还原滤镜的默认属性
+        filter?.setDefaults()
+        //设置需要生成二维码的数据
+        filter?.setValue(text.data(using: String.Encoding.utf8), forKey: "inputMessage")
+        //从滤镜中取出生成的图片
+        let ciImage = filter?.outputImage
+        //这个清晰度不好
+        //let bgImage = UIImage(CIImage: ciImage!)
+        //这个清晰度好
+        let bgImage = createNonInterpolatedUIImageFormCIImage(ciImage!, size: 300)
+        return bgImage
+    }
+    
     //MARK: -传进去字符串,生成二维码和头像图片
     public static func creatQRCodeImage(_ text: String,icon: UIImage) -> UIImage{
         //创建滤镜
