@@ -74,6 +74,13 @@ extension UILabel {
         self.attributedText = timeAttributedStrss
     }
     
+    open func vipText(text: String,vipText: String,font: UIFont){
+        let timeAttributedStrss = NSMutableAttributedString(string: text)
+        let range = NSMakeRange(text.count-vipText.count, vipText.count)
+        timeAttributedStrss.addAttributes([NSAttributedStringKey.font : font], range: range)
+        self.attributedText = timeAttributedStrss
+    }
+    
     /// 区分电话号码等 高亮显示
     open func distinguishPhoneNum() {
         //获取字符串中的电话号码
