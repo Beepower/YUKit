@@ -14,12 +14,14 @@ public let IPHONEPLUS: CGFloat = 414.0
 
 extension UIDevice {
     //812pt x 375pt @3x
+    //896 xs max xr
     
     /// 是不是iPhone X
     ///
-    /// - Returns: 是不是iPhone X
+    /// - Returns: 是不是iPhone X xs max xr
     public func isX() -> Bool {
-        if UIScreen.main.bounds.height == 812 {
+        if UIScreen.main.bounds.height == 812 || UIScreen.main.bounds.height == 896{
+            
             return true
         }
         return false
