@@ -119,4 +119,21 @@ open class YUMath {
         let percValue = "\(jian)\(YUMath.wsDelZero(ydp))%"
         return percValue
     }
+    
+    /// 百分比没有%
+    ///
+    /// - Parameters:
+    ///   - a: 昨天或者前一个数据 非负数
+    ///   - b: 今天或者后一个数据
+    /// - Returns: ↑10% 上升下降多少
+    open class func perCentNoper(_ a: Float,_ b: Float) -> String {
+        var ydp: Float = 0.0
+        //如果分母为0 就用100%
+        if a == 0 { ydp = 100 }
+        ydp = (abs(a-b))/a*100
+        let jian = b > a ? "↑" : "↓"
+        if ydp > 9999 { ydp = 9999 }
+        let percValue = "\(jian)\(YUMath.wsDelZero(ydp))"
+        return percValue
+    }
 }
