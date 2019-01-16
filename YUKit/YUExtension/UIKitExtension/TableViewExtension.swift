@@ -187,10 +187,10 @@ extension Reusable {
 //}
 
 extension UITableView {
-    /**
-     注册cell类
-     - parameter _: 类型
-     */
+  
+    /// 注册cell类
+    ///
+    /// - Parameter _: UITableViewCell.self
     public func registerReusableCell<T: UITableViewCell>(_: T.Type) where T: Reusable {
         if let nib = T.nib {
             self.register(nib, forCellReuseIdentifier: T.reuseIdentifier)
@@ -211,10 +211,6 @@ extension UITableView {
         }
     }
     
-//    func adequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>() -> T? where T: Reusable {
-//        return self.dequeueReusableHeaderFooterView(withIdentifier: T.reuseIdentifier) as! T?
-//    }
-    
     public func adequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>() -> T where T: Reusable {
         return self.dequeueReusableHeaderFooterView(withIdentifier: T.reuseIdentifier) as! T
     }
@@ -233,7 +229,14 @@ extension UICollectionView {
         return self.dequeueReusableCell(withReuseIdentifier: T.reuseIdentifier, for: indexPath) as! T
     }
     
-    public func registerReusableSupplementaryView<T: Reusable>(_ elementKind: String, _: T.Type) {
+//    public func registerReusableSupplementaryView<T: Reusable>(_ elementKind: String, _: T.Type) {
+//        if let nib = T.nib {
+//            self.register(nib, forSupplementaryViewOfKind: elementKind, withReuseIdentifier: T.reuseIdentifier)
+//        } else {
+//            self.register(T.self, forSupplementaryViewOfKind: elementKind, withReuseIdentifier: T.reuseIdentifier)
+//        }
+//    }
+    public func registerReusableSupplementaryView<T: UICollectionReusableView>(_ elementKind: String, _: T.Type)where T: Reusable {
         if let nib = T.nib {
             self.register(nib, forSupplementaryViewOfKind: elementKind, withReuseIdentifier: T.reuseIdentifier)
         } else {
@@ -241,15 +244,11 @@ extension UICollectionView {
         }
     }
     
-    public func dequeueReusableSupplementaryView<T: UICollectionViewCell>(_ elementKind: String, indexPath: IndexPath) -> T where T: Reusable {
+    public func dequeueReusableSupplementaryView<T: UICollectionReusableView>(_ elementKind: String, indexPath: IndexPath) -> T where T: Reusable {
         return self.dequeueReusableSupplementaryView(ofKind: elementKind, withReuseIdentifier: T.reuseIdentifier, for: indexPath) as! T
     }
 }
 
-
-
 //func dequeueReusableCell<T: Reusable>(indexPath indexPath: NSIndexPath) -> T {
 //    return self.dequeueReusableCellWithIdentifier(T.reuseIdentifier, forIndexPath: indexPath) as! T
 //}
-//
-//let cell = tableView.dequeueReusableCell(indexPath: indexPath) as MyCustomCell
