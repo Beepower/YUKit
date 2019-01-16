@@ -46,11 +46,13 @@ public typealias AnyBlock = () -> ()
 /// 回调
 public typealias huiDiao = () -> ()
 public typealias huiDiaoString = (String) -> ()
+public typealias huiDiaoInt = (Int) -> ()
 
 public typealias huiDiaoValue = (AnyObject) -> ()
 public typealias blockClick = () -> ()
 public typealias huiDiaoAny = (Any) -> ()
 public typealias huiDiaoBoolString = (Bool,String?) -> ()
+public typealias huiDiaoStringString = (String?,String?) -> ()
 public typealias huiDiaoBool = (Bool) -> ()
 public typealias funcBlock = (Int,Int) -> ()
 
