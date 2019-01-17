@@ -58,11 +58,14 @@ open class YUMath {
     
     /// 保留小数去除无用0
     ///
-    /// - Parameter value: 数Float Int Double
+    /// - Parameter value: 数Float Int Double Int64
     /// - Returns: 个位数保留2 十位数保留1 百位以上取整
     open class func wsDelZero<T>(_ value: T)-> String {
         var ws = ""
-        if value is Int {
+        if value is Int64 {
+            let k = value as! Int64
+            ws = "\(k)"
+        }else if value is Int {
             let k = value as! Int
             ws = "\(k)"
         }else if value is Double{
