@@ -69,16 +69,29 @@ extension UILabel {
     ///   - vipText: 设置不同颜色的字体
     ///   - color: 设置的颜色
     open func vipText(text: String,vipText: String,color: UIColor){
-        let timeAttributedStrss: NSMutableAttributedString = NSMutableAttributedString(string: text)
-        timeAttributedStrss.addAttributes([NSAttributedStringKey.foregroundColor : color], range: NSMakeRange(text.count-vipText.count, vipText.count))
-        self.attributedText = timeAttributedStrss
+        let attributedStrs: NSMutableAttributedString = NSMutableAttributedString(string: text)
+        let range = NSMakeRange(text.count-vipText.count, vipText.count)
+        attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: color], range: range)
+        self.attributedText = attributedStrs
     }
     
     open func vipText(text: String,vipText: String,font: UIFont){
-        let timeAttributedStrss = NSMutableAttributedString(string: text)
+        let attributedStrs = NSMutableAttributedString(string: text)
         let range = NSMakeRange(text.count-vipText.count, vipText.count)
-        timeAttributedStrss.addAttributes([NSAttributedStringKey.font : font], range: range)
-        self.attributedText = timeAttributedStrss
+        attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+        self.attributedText = attributedStrs
+    }
+    
+    open func vipText(_ text: String,_ vipText: String,_ vipText2: String,font: UIFont,color: UIColor){
+        let attributedStrs = NSMutableAttributedString(string: text)
+        let range = NSMakeRange(text.count-vipText.count-vipText2.count, vipText.count)
+        attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+        //其实没必要判断
+        if vipText2 != "" {
+            let range2 = NSMakeRange(text.count-vipText2.count, vipText2.count)
+            attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: color], range: range2)
+        }
+        self.attributedText = attributedStrs
     }
     
     /// 区分电话号码等 高亮显示

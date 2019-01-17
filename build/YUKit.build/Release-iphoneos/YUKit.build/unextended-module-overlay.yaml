@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/build/Release-iphoneos/YUKit.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/CLY/Cloud/OneDriveWorkSpace/YUKit/build/YUKit.build/Release-iphoneos/YUKit.build/unextended-module.modulemap",
+    }]
+  }]
+}

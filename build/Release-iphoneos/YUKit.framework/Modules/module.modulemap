@@ -1,0 +1,11 @@
+framework module YUKit {
+  umbrella header "YUKit.h"
+
+  export *
+  module * { export * }
+}
+
+module YUKit.Swift {
+    header "YUKit-Swift.h"
+    requires objc
+}
