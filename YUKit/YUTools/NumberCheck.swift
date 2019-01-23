@@ -22,6 +22,10 @@ open class NumberCheck: NSObject {
         return phoneTest.evaluate(with: mobile)
     }
     
+    /// 8开头加手机号的12位数字
+    ///
+    /// - Parameter mobile: 手机号
+    /// - Returns: 是不是beeid
     public static func isBeeid(_ mobile: String) -> Bool {
         //手机号以813， 815，818开头，八个 \\d 数字字符
         //let phoneRegex = "^((13[0-9])|(15[^4,\\\\D])|(18[0,0-9]))\\\\d{8}$"
