@@ -31,8 +31,8 @@
 
 import UIKit
 
-//NSFileManager文件管理器主要是对文件进行操作（创建、删除、改名等）以及文件信息的获取
-//NSFileHandle文件连接器主要是对文件内容进行读取与写入操作
+//FileManager文件管理器主要是对文件进行操作（创建、删除、改名等）以及文件信息的获取
+//FileHandle文件连接器主要是对文件内容进行读取与写入操作
 
 open class YUFile: NSObject {
 
@@ -66,7 +66,7 @@ open class YUFile: NSObject {
     public static func appendAAC(_ name: String) -> String{
         //组合录音文件路径
         return self.getPath() + "\(name).aac"
-        //        return documentPath + "/\(name)"
+        //return documentPath + "/\(name)"
     }
     
     /// 获取沙盒地址
@@ -82,7 +82,6 @@ open class YUFile: NSObject {
     
     public static func pathWithName(_ name: String) -> String {
         let filePath: String = self.getPath().appendingFormat(name)
-        //YUPrint("数据库目录 = \(filePath)")
         return filePath
     }
     
@@ -91,10 +90,8 @@ open class YUFile: NSObject {
     ///
     /// - Returns: 文件大小
     public static func fileSizeOfCache()-> Int {
-        
         // 取出cache文件夹目录 缓存文件都在这个目录下
         let cachePath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first
-        //缓存目录路径
         YUPrint(cachePath!)
         
         // 取出文件夹下所有文件数组
@@ -105,7 +102,6 @@ open class YUFile: NSObject {
         for file in fileArr! {
             // 把文件名拼接到路径中
             let path = cachePath!+"/\(file)"
-                //cachePath?.stringByAppendingString("/\(file)")
             // 取出文件属性
             let floder = try! FileManager.default.attributesOfItem(atPath: path)
             // 用元组取出文件大小属性
@@ -118,7 +114,6 @@ open class YUFile: NSObject {
         }
         
         let mm = size / 1024 / 1024
-        
         return mm
     }
     
@@ -134,7 +129,6 @@ open class YUFile: NSObject {
         // 遍历删除
         for file in fileArr! {
             let path = cachePath!+"/\(file)"
-//            let path = cachePath?.stringByAppendingString("/\(file)")
             if FileManager.default.fileExists(atPath: path) {
                 do {
                     try FileManager.default.removeItem(atPath: path)
@@ -185,8 +179,7 @@ open class YUFile: NSObject {
     /// temp 创建临时文件的目录，当iOS设备重启时，文件会被自动清除
     public class var tempPath: String {
         get {
-            let temp = NSTemporaryDirectory()
-            return temp
+            return NSTemporaryDirectory()
         }
     }
     
@@ -194,8 +187,7 @@ open class YUFile: NSObject {
     ///Library 设置程序的默认设置和其他状态信息:
     public class var libraryPath: String {
         get {
-            let library = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.libraryDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
-            return library
+            return NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.libraryDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
         }
     }
     
@@ -203,8 +195,7 @@ open class YUFile: NSObject {
     /// 获取Library/Caches目录
     public class var cachePath: String {
         get {
-            let cache = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
-            return cache
+            return NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
         }
     }
     
@@ -212,8 +203,7 @@ open class YUFile: NSObject {
     /// 获取Library/Preferences目录 通常情况下，Preferences由系统维护，我们很少去操作TA
     public class var prePath: String {
         get {
-            let prePath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.preferencePanesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
-            return prePath
+            return NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.preferencePanesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
         }
     }
     
@@ -221,10 +211,9 @@ open class YUFile: NSObject {
     // 获取应用程序包的路径 该路径是只读的
     public class var appPath: String {
         get {
-            let path = Bundle.main.resourcePath!
             //获取安装包内数据库路径
             //Bundle.main.path(forResource: "db", ofType: "sqlite")
-            return path
+            return Bundle.main.resourcePath!
         }
     }
     
@@ -266,18 +255,8 @@ open class YUFile: NSObject {
     ///   - path2: path2
     /// - Returns: 是否相同
     public class func compare(_ path1: String, _ path2: String) -> Bool {
-        let manager = FileManager.default
-        //        let docPath = YUFile.documentUrl
-        //        let contents = try! manager.contentsOfDirectory(atPath: docPath.path)
-        //        print(contents)
-        //        let count = contents.count
-        //        if count > 1 {
-        //            let path1 = docPath.path + "/" + (contents[2] as String)
-        //            let path2 = docPath.path + "/" + (contents[1] as String)
-        //            let equal = manager.contentsEqual(atPath: path1, andPath: path2)
-        //            print("比较结果: \(equal)")
-        //        }
         if self.isExist(path1) && self.isExist(path2) {
+            let manager = FileManager.default
             let equal = manager.contentsEqual(atPath: path1, andPath: path2)
             return equal
         }else {
@@ -293,13 +272,10 @@ open class YUFile: NSObject {
         if self.isExist(filepath) {
             let manager = FileManager.default
             let readable = manager.isReadableFile(atPath: filepath)
-            print("可读: \(readable)")
             let writeable = manager.isWritableFile(atPath: filepath)
-            print("可写: \(writeable)")
             let executable = manager.isExecutableFile(atPath: filepath)
-            print("可执行: \(executable)")
             let deleteable = manager.isDeletableFile(atPath: filepath)
-            print("可删除: \(deleteable)")
+            print("读: \(readable) 写: \(writeable) 执行: \(executable) 删除: \(deleteable)")
             return (readable,writeable,executable,deleteable)
         }else {
             return (false,false,false,false)
@@ -317,7 +293,6 @@ open class YUFile: NSObject {
     public class func createFolder(name: String,baseUrl: URL){
         let manager = FileManager.default
         let RookieSon = baseUrl.appendingPathComponent(name, isDirectory: true)
-        /// 检查文件是否存在
         let exist = manager.fileExists(atPath: RookieSon.path)
         if !exist {
             try! manager.createDirectory(at: RookieSon, withIntermediateDirectories: true, attributes: nil)
@@ -333,7 +308,6 @@ open class YUFile: NSObject {
         let manager = FileManager.default
         let url = YUFile.documentUrl
         let RookieSon = url.appendingPathComponent(name, isDirectory: true)
-        /// 检查文件是否存在
         let exist = manager.fileExists(atPath: RookieSon.path)
         if !exist {
             try! manager.createDirectory(at: RookieSon, withIntermediateDirectories: true, attributes: nil)
@@ -386,35 +360,26 @@ open class YUFile: NSObject {
         //        try! manager.moveItem(at: moveFromUrl2, to: moveToUrl2)
     }
     
+    //TODO: - 改成可以传path  url
     /// 删除文件
     ///
     /// - Parameter filePath: filePath
     public class func deleteFile(_ filePath: String) {
         let manager = FileManager.default
-        //let moveUrl = YUFile.documentUrl
-        //1).第一种方法:
-        //let filePath = NSHomeDirectory() + "/Documents/hangge.txt"
         try! manager.removeItem(atPath: filePath)
-        
-        //        //2).定位到用户文档目录:
-        //        let DelecttoUrl = moveUrl.appendingPathComponent("copyed.txt")
-        //        // 删除文档根目录下的toUrl路径的文件（copyed.txt文件）
-        //        try! manager.removeItem(at: DelecttoUrl)
     }
     
     //删除目录下所有的文件
     public class func deleteAllFile(_ path: String) {
         let manager = FileManager.default
-        // 方法1：获取所有文件，然后遍历删除
-        //let DelectAllmyDirectory = NSHomeDirectory() + "/Documents/Files"
-        let DelectAllfileArray = manager.subpaths(atPath: path)
-        for fn in DelectAllfileArray!{
+        let allFiles = manager.subpaths(atPath: path)
+        for fn in allFiles!{
             try! manager.removeItem(atPath: path + "/\(fn)")
         }
-        //        // 方法2：删除目录后重新创建该目录
-        //        let DelectAllmyDirectory2 = NSHomeDirectory() + "/Documents/Files"
-        //        try! manager.removeItem(atPath: DelectAllmyDirectory2)
-        //        try! manager.createDirectory(atPath: DelectAllmyDirectory2, withIntermediateDirectories: true, attributes: nil)
+        
+        //方法2：删除目录后重新创建该目录
+        //try! manager.removeItem(atPath: path)
+        //try! manager.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
     }
     
     /// 创建文件
@@ -435,7 +400,7 @@ open class YUFile: NSObject {
     }
     
     //MARK: 遍历还在做
-    public func getall(url: URL) {
+    public func getAll(url: URL) {
         let manager = FileManager.default
         //了解一个具体目录下的所有文件
         //1).对指定路径执行浅搜索，返回指定目录路径下的文件、子目录及符号链接的列表
@@ -578,6 +543,7 @@ open class YUFile: NSObject {
                 return readString!
             }
         }
+        
         //方法2
         //let manager = FileManager.default
         //let data = manager.contents(atPath: file.path)
