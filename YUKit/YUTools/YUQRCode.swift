@@ -31,10 +31,10 @@
 
 import UIKit
 
-open class CreateQRCode: NSObject {
+open class YUQRCode: NSObject {
 
     //MARK: -传进去字符串,生成二维码
-    public static func image(_ text: String) -> UIImage{
+    public static func createQRimage(_ text: String) -> UIImage{
         //创建滤镜
         let filter = CIFilter(name: "CIQRCodeGenerator")
         //还原滤镜的默认属性
