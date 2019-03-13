@@ -21,7 +21,6 @@ extension UIDevice {
     /// - Returns: 是不是iPhone X xs max xr
     public func isX() -> Bool {
         if UIScreen.main.bounds.height == 812 || UIScreen.main.bounds.height == 896{
-            
             return true
         }
         return false

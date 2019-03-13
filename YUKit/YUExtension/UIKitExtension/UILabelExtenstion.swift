@@ -84,8 +84,21 @@ extension UILabel {
     
     open func vipText(_ text: String,_ vipText: String,_ vipText2: String,font: UIFont,color: UIColor){
         let attributedStrs = NSMutableAttributedString(string: text)
+        
         let range = NSMakeRange(text.count-vipText.count-vipText2.count, vipText.count)
         attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+        
+        ///↑↑，↓↓，←→，←→
+        if text.hasPrefix("↑") {
+            let range0 = NSMakeRange(0, 1)
+            let gcolor = UIColor(red:1.00, green:0.25, blue:0.25, alpha:1.00)
+            attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: gcolor], range: range0)
+        }else if text.hasPrefix("↓") {
+            let range0 = NSMakeRange(0, 1)
+            let gcolor = UIColor(red:0.09, green:0.56, blue:0.81, alpha:1.00)
+            attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: gcolor], range: range0)
+            attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+        }
         //其实没必要判断
         if vipText2 != "" {
             let range2 = NSMakeRange(text.count-vipText2.count, vipText2.count)

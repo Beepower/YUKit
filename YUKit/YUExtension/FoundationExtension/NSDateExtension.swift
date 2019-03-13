@@ -437,13 +437,38 @@ extension Date {
         return timeFormatter.string(from: self)
     }
     
+    /// 日期加法 需要修改成Calendar自带加法
+    ///
+    /// - Parameters:
+    ///   - component: 日期类型
+    ///   - date: 加的数量
+    /// - Returns: 新日期
     public func add(_ component: Calendar.Component = .day,_ date: Int) -> Date {
+        //TODO: - 日期时间更新
+        //两个日期的间隔秒数
+        //date1!.timeIntervalSince(date22!)
+        
+        //比较两个日期的天数
+        //let between = userCalendar.dateComponents([.year], from: date1!, to: date22!)
+        //between.year
+        
+//        let userCalendar = Calendar.current
+//        //在date1的基础上，增加90天
+//        userCalendar.date(byAdding: component, value: date, to: self)
+        //userCalendar.date(byAdding: .day, value: 90, to: date1!)
+        
+//        //在date1基础上，增加日期组件后的date
+//        var com = DateComponents()
+//        com.hour = 4
+//        com.minute = 4
+//        userCalendar.date(byAdding: com, to: date1!)
+        
         var second: Int = 0
         switch component {
         case .year:
-            second = date*24*60*60
+            second = 365*date*24*60*60
         case .month:
-            second = date*24*60*60
+            second = 30*date*24*60*60
         case .day:
             second = date*24*60*60
         case .hour:
@@ -531,7 +556,8 @@ extension Date {
     /// 显示在聊天记录里
     public func chatShowTime() -> String {
         if self.day == Date().day {
-            return self.toString(.hm)//"\(date.hour):\(date.minute)"
+            return self.toString(.hm)
+            //"\(date.hour):\(date.minute)"
         }else {
             switch Date().day-self.day {
             case 1:

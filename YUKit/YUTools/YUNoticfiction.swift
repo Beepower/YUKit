@@ -33,20 +33,40 @@ import UIKit
 
 open class YUNoticfiction: NSObject {
 
+    //MARK: - ADD
     public static func add(_ observer: Any,selector: Selector,name: String,object: Any? = nil) {
         NotificationCenter.default.addObserver(observer, selector: selector, name: NSNotification.Name.init(name), object: object)
     }
+    public static func add(_ observer: Any,selector: Selector,name: Notification.Name,object: Any? = nil) {
+        NotificationCenter.default.addObserver(observer, selector: selector, name: name, object: object)
+    }
+    
+    //MARK: - Remove
     public static func remove(_ observer: Any,name: String,object: Any? = nil) {
         NotificationCenter.default.removeObserver(observer, name: NSNotification.Name.init(name), object: object)
     }
     public static func remove(_ observer: Any,name: NSNotification.Name?,object: Any? = nil) {
         NotificationCenter.default.removeObserver(observer, name: name, object: object)
     }
-    public static func post(_ name: String, _ observer: Any, _ userInfo: [AnyHashable : Any]? = nil) {
-        NotificationCenter.default.post(name: NSNotification.Name.init(name), object: observer, userInfo: userInfo)
+    public static func remove(_ observer: Any,name: Notification.Name) {
+        NotificationCenter.default.removeObserver(observer, name: name, object: nil)
     }
-    //open func post(name aName: NSNotification.Name, object anObject: Any?, userInfo aUserInfo: [AnyHashable : Any]? = nil)
+    public static func remove(_ observer: Any) {
+        NotificationCenter.default.removeObserver(observer)
+    }
     
+    //MARK: - Post
+    public static func post(_ name: String, _ object: Any, _ userInfo: [AnyHashable : Any]? = nil) {
+        NotificationCenter.default.post(name: NSNotification.Name.init(name), object: object, userInfo: userInfo)
+    }
+    public static func post(_ name: Notification.Name, _ object: Any, _ userInfo: [AnyHashable : Any]? = nil) {
+        NotificationCenter.default.post(name: name, object: object, userInfo: userInfo)
+    }
+    public static func post(_ name: Notification.Name,_ userInfo: [AnyHashable : Any]? = nil) {
+        NotificationCenter.default.post(name: name, object: nil, userInfo: userInfo)
+    }
+    
+    //MARK: - 本地通知
     public class func addNotifiction(_ alertString: String,timeDouble: Double) {
         let notification = UILocalNotification()
         //let fireDate = NSDate().dateByAddingTimeInterval(-15*60)//15分钟后

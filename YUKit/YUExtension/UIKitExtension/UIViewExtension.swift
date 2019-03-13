@@ -208,8 +208,23 @@ extension UIView {
 }
 
 extension CGRect {
+    
+    /// 初始化CGRect
+    ///
+    /// - Parameters:
+    ///   - x: x
+    ///   - y: y
+    ///   - width: 宽度
+    ///   - height: 高度
     public init(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat) {
         self.init(x: x, y: y, width: width, height: height)
+    }
+    
+    /// 初始化CGRect（0,0屏幕宽度,高度）
+    ///
+    /// - Parameter height: 高度
+    public init(_ height: CGFloat) {
+        self.init(x: 0, y: 0, width: BWIDTH, height: height)
     }
 }
 

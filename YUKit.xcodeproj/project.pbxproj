@@ -41,13 +41,13 @@
 		0315F4691FAAFA0000D42391 /* YUShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F4451FAAFA0000D42391 /* YUShake.swift */; };
 		0315F46A1FAAFA0000D42391 /* YUFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F4461FAAFA0000D42391 /* YUFile.swift */; };
 		0315F46B1FAAFA0000D42391 /* YUDevTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F4471FAAFA0000D42391 /* YUDevTools.swift */; };
-		0315F46D1FAAFA0000D42391 /* CreateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F4491FAAFA0000D42391 /* CreateQRCode.swift */; };
+		0315F46D1FAAFA0000D42391 /* YUQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F4491FAAFA0000D42391 /* YUQRCode.swift */; };
 		0315F46E1FAAFA0000D42391 /* YUOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F44A1FAAFA0000D42391 /* YUOperation.swift */; };
 		0315F46F1FAAFA0000D42391 /* YUImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F44B1FAAFA0000D42391 /* YUImageTool.swift */; };
 		0315F4711FAAFA0000D42391 /* hehe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F44D1FAAFA0000D42391 /* hehe.swift */; };
 		0315F4721FAAFA0000D42391 /* YUWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F44E1FAAFA0000D42391 /* YUWindow.swift */; };
 		0315F4731FAAFA0000D42391 /* YUThreadTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0315F44F1FAAFA0000D42391 /* YUThreadTool.swift */; };
-		03260F1C212E53D80031FA2A /* MathTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03260F1B212E53D80031FA2A /* MathTool.swift */; };
+		03260F1C212E53D80031FA2A /* YUMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03260F1B212E53D80031FA2A /* YUMath.swift */; };
 		03BC15C01FA89B33000B7BA5 /* YUKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BC15B61FA89B33000B7BA5 /* YUKit.framework */; };
 		03BC15C51FA89B33000B7BA5 /* YUKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BC15C41FA89B33000B7BA5 /* YUKitTests.swift */; };
 		03BC15C71FA89B33000B7BA5 /* YUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BC15B91FA89B33000B7BA5 /* YUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -107,13 +107,13 @@
 		0315F4451FAAFA0000D42391 /* YUShake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUShake.swift; sourceTree = "<group>"; };
 		0315F4461FAAFA0000D42391 /* YUFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUFile.swift; sourceTree = "<group>"; };
 		0315F4471FAAFA0000D42391 /* YUDevTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUDevTools.swift; sourceTree = "<group>"; };
-		0315F4491FAAFA0000D42391 /* CreateQRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQRCode.swift; sourceTree = "<group>"; };
+		0315F4491FAAFA0000D42391 /* YUQRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUQRCode.swift; sourceTree = "<group>"; };
 		0315F44A1FAAFA0000D42391 /* YUOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUOperation.swift; sourceTree = "<group>"; };
 		0315F44B1FAAFA0000D42391 /* YUImageTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUImageTool.swift; sourceTree = "<group>"; };
 		0315F44D1FAAFA0000D42391 /* hehe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hehe.swift; sourceTree = "<group>"; };
 		0315F44E1FAAFA0000D42391 /* YUWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUWindow.swift; sourceTree = "<group>"; };
 		0315F44F1FAAFA0000D42391 /* YUThreadTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YUThreadTool.swift; sourceTree = "<group>"; };
-		03260F1B212E53D80031FA2A /* MathTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTool.swift; sourceTree = "<group>"; };
+		03260F1B212E53D80031FA2A /* YUMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUMath.swift; sourceTree = "<group>"; };
 		032D71931FAB5521006C1BB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03BC15B61FA89B33000B7BA5 /* YUKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YUKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BC15B91FA89B33000B7BA5 /* YUKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUKit.h; sourceTree = "<group>"; };
@@ -184,14 +184,14 @@
 				0315F44E1FAAFA0000D42391 /* YUWindow.swift */,
 				0315F44F1FAAFA0000D42391 /* YUThreadTool.swift */,
 				0315F44A1FAAFA0000D42391 /* YUOperation.swift */,
-				0315F4491FAAFA0000D42391 /* CreateQRCode.swift */,
+				0315F4491FAAFA0000D42391 /* YUQRCode.swift */,
 				0315F42E1FAAFA0000D42391 /* YULaunchAdMonitor.swift */,
 				0315F42F1FAAFA0000D42391 /* YULaunchImageADView.swift */,
 				0315F4341FAAFA0000D42391 /* YUNoticfiction.swift */,
 				0315F4381FAAFA0000D42391 /* NumberCheck.swift */,
 				0315F4371FAAFA0000D42391 /* YURecordTool.swift */,
 				0315F44D1FAAFA0000D42391 /* hehe.swift */,
-				03260F1B212E53D80031FA2A /* MathTool.swift */,
+				03260F1B212E53D80031FA2A /* YUMath.swift */,
 			);
 			path = YUTools;
 			sourceTree = "<group>";
@@ -471,7 +471,7 @@
 				0313BEDE21C7749E00A98B4F /* YUListGroup.swift in Sources */,
 				0315F4691FAAFA0000D42391 /* YUShake.swift in Sources */,
 				0315F45B1FAAFA0000D42391 /* YURecordTool.swift in Sources */,
-				0315F46D1FAAFA0000D42391 /* CreateQRCode.swift in Sources */,
+				0315F46D1FAAFA0000D42391 /* YUQRCode.swift in Sources */,
 				03BC15E51FA89B7B000B7BA5 /* TimerExtension.swift in Sources */,
 				0315F4611FAAFA0000D42391 /* YUVideoTool.swift in Sources */,
 				0315F4711FAAFA0000D42391 /* hehe.swift in Sources */,
@@ -496,7 +496,7 @@
 				03BC15F01FA89B7B000B7BA5 /* UIAlertViewControllerExtenstion.swift in Sources */,
 				03BC15FD1FA89BC8000B7BA5 /* Define.swift in Sources */,
 				03BC15EE1FA89B7B000B7BA5 /* YUImageExtension.swift in Sources */,
-				03260F1C212E53D80031FA2A /* MathTool.swift in Sources */,
+				03260F1C212E53D80031FA2A /* YUMath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
