@@ -183,6 +183,9 @@ open class YUFile: NSObject {
         }
     }
     
+    public class var homeDir: String {
+        return NSHomeDirectory()
+    }
     
     ///Library 设置程序的默认设置和其他状态信息:
     public class var libraryPath: String {
@@ -237,15 +240,22 @@ open class YUFile: NSObject {
         return self.appendDocPathurl(filefolder: filefolder).path
     }
     
-    //MARK: 文件管理
     /// 文件是否已经存在
     ///
     /// - Parameter isFilePath: 文件路径
     /// - Returns: 是否存在
     public class func isExist(_ isFilePath: String) -> Bool {
-        let manager = FileManager.default
-        let exist = manager.fileExists(atPath: isFilePath)
-        return exist
+        return FileManager.default.fileExists(atPath: isFilePath)
+    }
+    
+    /// 判断是否是文件夹的方法
+    ///
+    /// - Parameter path: 文件路径
+    /// - Returns: 是否是文件夹
+    static func directoryIsExists (path: String) -> Bool {
+        var directoryExists = ObjCBool.init(false)
+        let fileExists = FileManager.default.fileExists(atPath: path, isDirectory: &directoryExists)
+        return fileExists && directoryExists.boolValue
     }
     
     /// 比较两个文件是否内容相同（也可以比较目录）
@@ -256,9 +266,7 @@ open class YUFile: NSObject {
     /// - Returns: 是否相同
     public class func compare(_ path1: String, _ path2: String) -> Bool {
         if self.isExist(path1) && self.isExist(path2) {
-            let manager = FileManager.default
-            let equal = manager.contentsEqual(atPath: path1, andPath: path2)
-            return equal
+            return FileManager.default.contentsEqual(atPath: path1, andPath: path2)
         }else {
             return false
         }
@@ -369,12 +377,25 @@ open class YUFile: NSObject {
         try! manager.removeItem(atPath: filePath)
     }
     
-    //删除目录下所有的文件
+    /// 删除目录下所有的文件[包括子文件夹下的文件]
+    ///
+    /// - Parameter path: 目录
     public class func deleteAllFile(_ path: String) {
         let manager = FileManager.default
         let allFiles = manager.subpaths(atPath: path)
-        for fn in allFiles!{
-            try! manager.removeItem(atPath: path + "/\(fn)")
+        if allFiles != nil {
+            for fn in allFiles!{
+                let newPath = path + "/\(fn)"
+                if self.directoryIsExists(path: newPath) {
+                    print("删除文件夹地址: \(newPath)")
+                    self.deleteAllFile(newPath)
+                }else {
+                    print("删除文件地址: \(newPath)")
+                    try? manager.removeItem(atPath: newPath)
+                }
+            }
+        }else {
+            print("文件夹为空: \(path)")
         }
         
         //方法2：删除目录后重新创建该目录
@@ -399,6 +420,13 @@ open class YUFile: NSObject {
         return "\(filepath)"
     }
     
+    func list() {
+        
+    }
+    
+    func deepList() {
+        
+    }
     //MARK: 遍历还在做
     public func getAll(url: URL) {
         let manager = FileManager.default
@@ -699,4 +727,3 @@ extension String {
 //        aCoder.encode(phone, forKey:"phone")
 //    }
 //}
-

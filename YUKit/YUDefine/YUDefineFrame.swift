@@ -70,5 +70,5 @@ public let ONENOBATTERYNAV: CGFloat = (BHEIGHT - BATTERYNAV)/2
 public let ONENOBATTERYNAVTAB: CGFloat = (BHEIGHT - BATTERYNAV - TABBARH)/2
 
 ///两个的间距缩短  主要给rightbaritem使用
-public let NAVITEMEDGE: UIEdgeInsets = UIEdgeInsetsMake(0, 15, 0, -20)
-
+public let NAVITEMEDGE: UIEdgeInsets = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: -20)
+//UIEdgeInsetsMake(0, 15, 0, -20)

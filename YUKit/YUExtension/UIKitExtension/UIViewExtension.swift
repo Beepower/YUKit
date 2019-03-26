@@ -27,8 +27,8 @@ extension UIView {
         get {
             return self.frame.size.width
         }
-        set {
-            self.width = self.frame.size.width
+        set(newValue){
+            self.frame.size.width = newValue
         }
     }
     
@@ -37,8 +37,8 @@ extension UIView {
         get {
             return self.frame.size.height
         }
-        set {
-            self.height = self.frame.size.height
+        set(newValue){
+            self.frame.size.height = newValue
         }
     }
     
@@ -47,8 +47,8 @@ extension UIView {
         get {
             return self.frame.origin.x
         }
-        set {
-            self.x = self.frame.origin.x
+        set(newValue){
+            self.frame.origin.x = newValue
         }
     }
     
@@ -57,8 +57,8 @@ extension UIView {
         get {
             return self.frame.origin.y
         }
-        set {
-            self.y = self.frame.origin.y
+        set(newValue){
+            self.frame.origin.y = newValue
         }
     }
     
@@ -90,12 +90,9 @@ extension UIView {
         self.frame = rect
     }
     
-    
-    /**
-     获取或设置origin
-     
-     - returns: 获取或设置origin
-     */
+    /// 获取或设置origin
+    ///
+    /// - Returns: 获取或设置origin
     public func origin() ->CGPoint {
         return self.frame.origin
     }
@@ -106,20 +103,16 @@ extension UIView {
         self.frame = rect
     }
     
-    /**
-     获取rightX
-     
-     - returns: 获取rightX
-     */
+    /// 获取rightX
+    ///
+    /// - Returns: 获取rightX
     public func rightX() ->CGFloat {
         return x + width
     }
     
-    /**
-     获取或设置bottomY
-     
-     - returns: 获取或设置bottomY
-     */
+    /// 获取或设置bottomY
+    ///
+    /// - Returns: 获取或设置bottomY
     public func bottomY() ->CGFloat {
         return y + height
     }
@@ -220,16 +213,19 @@ extension CGRect {
         self.init(x: x, y: y, width: width, height: height)
     }
     
-    /// 初始化CGRect（0,0屏幕宽度,高度）
+    /// 初始化CGRect（0,0,屏幕宽度,高度）
     ///
     /// - Parameter height: 高度
     public init(_ height: CGFloat) {
         self.init(x: 0, y: 0, width: BWIDTH, height: height)
     }
+    
+    /// 初始化CGRect（0,0,宽度,高度）
+    ///
+    /// - Parameters:
+    ///   - width: 宽度
+    ///   - height: 高度
+    public init(_ width: CGFloat, _ height: CGFloat) {
+        self.init(x: 0, y: 0, width: width, height: height)
+    }
 }
-
-//extension UIView {
-//    public convenience init(_ frame: CGRect) {
-//        self.init(frame)
-//    }
-//}

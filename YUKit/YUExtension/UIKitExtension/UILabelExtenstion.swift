@@ -43,21 +43,21 @@ extension UILabel {
     
     open func vipText(text: String,vipText: String,vipStart: Int,vipFont: CGFloat){
         let timeAttributedStrss: NSMutableAttributedString = NSMutableAttributedString(string: text)
-        timeAttributedStrss.addAttribute(NSAttributedStringKey.font, value: UIFont.systemFont(ofSize: vipFont), range: NSMakeRange(vipStart, "\(vipText)".count)) //.characters.count
+        timeAttributedStrss.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: vipFont), range: NSMakeRange(vipStart, "\(vipText)".count)) //.characters.count
         self.attributedText = timeAttributedStrss
     }
     
     open func vipText(text: String,vipText: String,vipStart: Int,vipFont: UIFont,vipColor: UIColor){
         let timeAttributedStrss: NSMutableAttributedString = NSMutableAttributedString(string: text)
-        timeAttributedStrss.addAttribute(NSAttributedStringKey.font, value: vipFont, range: NSMakeRange(vipStart, "\(vipText)".count))
-        timeAttributedStrss.addAttribute(NSAttributedStringKey.foregroundColor, value: vipColor, range: NSMakeRange(vipStart, "\(vipText)".count))
+        timeAttributedStrss.addAttribute(NSAttributedString.Key.font, value: vipFont, range: NSMakeRange(vipStart, "\(vipText)".count))
+        timeAttributedStrss.addAttribute(NSAttributedString.Key.foregroundColor, value: vipColor, range: NSMakeRange(vipStart, "\(vipText)".count))
         self.attributedText = timeAttributedStrss
     }
     
     open func vipText(text: String,ftext: String,fstart: Int,fontSize: CGFloat,ctext: String,cstart: Int,color: UIColor){
         let timeAttributedStrss: NSMutableAttributedString = NSMutableAttributedString(string: text)
-        timeAttributedStrss.addAttribute(NSAttributedStringKey.font, value: UIFont.systemFont(ofSize: fontSize), range: NSMakeRange(fstart, "\(ftext)".count))
-        timeAttributedStrss.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: NSMakeRange(cstart, "\(ctext)".count))
+        timeAttributedStrss.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: fontSize), range: NSMakeRange(fstart, "\(ftext)".count))
+        timeAttributedStrss.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSMakeRange(cstart, "\(ctext)".count))
 //        timeAttributedStrss.addAttribute(NSFontAttributeName, value: UIFont.systemFont(ofSize: 20), range: NSMakeRange(cstart, "\(ctext)".characters.count))
         self.attributedText = timeAttributedStrss
     }
@@ -71,14 +71,14 @@ extension UILabel {
     open func vipText(text: String,vipText: String,color: UIColor){
         let attributedStrs: NSMutableAttributedString = NSMutableAttributedString(string: text)
         let range = NSMakeRange(text.count-vipText.count, vipText.count)
-        attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: color], range: range)
+        attributedStrs.addAttributes([NSAttributedString.Key.foregroundColor: color], range: range)
         self.attributedText = attributedStrs
     }
     
     open func vipText(text: String,vipText: String,font: UIFont){
         let attributedStrs = NSMutableAttributedString(string: text)
         let range = NSMakeRange(text.count-vipText.count, vipText.count)
-        attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+        attributedStrs.addAttributes([NSAttributedString.Key.font: font], range: range)
         self.attributedText = attributedStrs
     }
     
@@ -86,23 +86,23 @@ extension UILabel {
         let attributedStrs = NSMutableAttributedString(string: text)
         
         let range = NSMakeRange(text.count-vipText.count-vipText2.count, vipText.count)
-        attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+        attributedStrs.addAttributes([NSAttributedString.Key.font: font], range: range)
         
         ///↑↑，↓↓，←→，←→
         if text.hasPrefix("↑") {
             let range0 = NSMakeRange(0, 1)
             let gcolor = UIColor(red:1.00, green:0.25, blue:0.25, alpha:1.00)
-            attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: gcolor], range: range0)
+            attributedStrs.addAttributes([NSAttributedString.Key.foregroundColor: gcolor], range: range0)
         }else if text.hasPrefix("↓") {
             let range0 = NSMakeRange(0, 1)
             let gcolor = UIColor(red:0.09, green:0.56, blue:0.81, alpha:1.00)
-            attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: gcolor], range: range0)
-            attributedStrs.addAttributes([NSAttributedStringKey.font: font], range: range)
+            attributedStrs.addAttributes([NSAttributedString.Key.foregroundColor: gcolor], range: range0)
+            attributedStrs.addAttributes([NSAttributedString.Key.font: font], range: range)
         }
         //其实没必要判断
         if vipText2 != "" {
             let range2 = NSMakeRange(text.count-vipText2.count, vipText2.count)
-            attributedStrs.addAttributes([NSAttributedStringKey.foregroundColor: color], range: range2)
+            attributedStrs.addAttributes([NSAttributedString.Key.foregroundColor: color], range: range2)
         }
         self.attributedText = attributedStrs
     }
@@ -121,16 +121,14 @@ extension UILabel {
             //定义一个NSAttributedstring接受电话号码字符串
             //let phoneNumber = str.attributedSubstring(from: phoneRange)
             //添加下划线
-            let attribtDic = [NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle]
+            let attribtDic = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single]
             str.addAttributes(attribtDic, range: phoneRange)
             
             //设置文本中的电话号码显示为黄色 NSForegroundColorAttributeName
-            str.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.yellow, range: phoneRange)
+            str.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.yellow, range: phoneRange)
             self.attributedText = str
             //self.isUserInteractionEnabled = true
             //添加手势，可以点击号码拨打电话addGestureRecognizer
         })
-        
     }
-    
 }

@@ -191,7 +191,7 @@ class BadgeView: UIView {
     var valueLabel: UILabel!
     
     //UInt64
-    var value: Int64! {
+    var value: Int64 = 0 {
         didSet {
             if value > 99 {
                 valueLabel.text = "..."

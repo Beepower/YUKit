@@ -69,9 +69,9 @@ extension UIColor {
         let fg = compareColor.components
         let threshold: CGFloat = 0.25
         
-        if fabs(bg.red - fg.red) > threshold || fabs(bg.green - fg.green) > threshold || fabs(bg.blue - fg.blue) > threshold {
-            if fabs(bg.red - bg.green) < 0.03 && fabs(bg.red - bg.blue) < 0.03 {
-                if fabs(fg.red - fg.green) < 0.03 && fabs(fg.red - fg.blue) < 0.03 {
+        if abs(bg.red - fg.red) > threshold || abs(bg.green - fg.green) > threshold || abs(bg.blue - fg.blue) > threshold {
+            if abs(bg.red - bg.green) < 0.03 && abs(bg.red - bg.blue) < 0.03 {
+                if abs(fg.red - fg.green) < 0.03 && abs(fg.red - fg.blue) < 0.03 {
                     return false
                 }
             }

@@ -115,7 +115,7 @@ open class YURecordTool: NSObject,AVAudioRecorderDelegate, AVAudioPlayerDelegate
     
         // 真机环境下需要的代码
         let session: AVAudioSession = AVAudioSession.sharedInstance()
-        try? session.setCategory(AVAudioSessionCategoryPlayAndRecord)
+        try? session.setCategory(AVAudioSession.Category.playAndRecord)
 //        if (session == nil) {
 //            print("Error creating session: \(session.description)")
 //        }else{
@@ -172,7 +172,7 @@ open class YURecordTool: NSObject,AVAudioRecorderDelegate, AVAudioPlayerDelegate
         }else {
             self.player = try? AVAudioPlayer(contentsOf: self.recordFileUrl)
             self.player.delegate = self
-            try? self.session.setCategory(AVAudioSessionCategoryPlayback)
+            try? self.session.setCategory(AVAudioSession.Category.playback)
             self.player.play()
         }
     }

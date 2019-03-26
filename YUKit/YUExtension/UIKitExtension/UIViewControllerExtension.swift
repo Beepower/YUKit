@@ -159,7 +159,7 @@ extension UIViewController {
     ///   - message: message
     ///   - preferredStyle: preferredStyle
     ///   - alertActions: [UIAlertAction]
-    public func showAlert(title: String?, message: String?, preferredStyle: UIAlertControllerStyle, alertActions: [UIAlertAction]) {
+    public func showAlert(title: String?, message: String?, preferredStyle: UIAlertController.Style, alertActions: [UIAlertAction]) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
         for a in alertActions {
             alertController.addAction(a)
@@ -197,7 +197,7 @@ extension UIViewController {
     ///   - preferredStyle: UIAlertControllerStyle
     ///   - alertActions: [UIAlertAction]
     ///   - textAction: textAction
-    public func showAlert(title: String?, message: String?, preferredStyle: UIAlertControllerStyle,alertActions: [UIAlertAction],textAction: ((UITextField) -> Void)?) {
+    public func showAlert(title: String?, message: String?, preferredStyle: UIAlertController.Style,alertActions: [UIAlertAction],textAction: ((UITextField) -> Void)?) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
         alertController.addTextField(configurationHandler: textAction)
         for a in alertActions {

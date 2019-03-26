@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 class YUAnimation: NSObject {
     
     func animaFromTo() -> Void {

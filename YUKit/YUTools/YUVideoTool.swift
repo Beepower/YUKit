@@ -15,8 +15,8 @@ class YUVideoTool: NSObject {
         let avAsset = AVAsset(url: videoURL)
         let generator = AVAssetImageGenerator(asset: avAsset)
         generator.appliesPreferredTrackTransform = true
-        let time = CMTimeMakeWithSeconds(0.0,600)
-        var actualTime:CMTime = CMTimeMake(0,0)
+        let time = CMTimeMakeWithSeconds(0.0, preferredTimescale: 600)
+        var actualTime: CMTime = CMTimeMake(value: 0, timescale: 0)
         let imageRef: CGImage = try! generator.copyCGImage(at: time, actualTime: &actualTime)
         let frameImg = UIImage(cgImage: imageRef)
         return frameImg //截图

@@ -21,20 +21,36 @@ open class YUListItem: NSObject {
         case Three
     }
     
-    public var icon: UIImage?           //图标
-    public var title: String?          //标题
-    public var subtitle: String?       //子标题
-    public var othertitle: String?       //其他标题
-    public var badgeValue: String?     //右边显示的提醒数字
-    public var destVcClass: AnyClass?  //点击这行cell,需要跳转到哪个控制器
+    /// 图标
+    public var icon: UIImage?
+    
+    /// 标题
+    public var title: String?
+    
+    /// 子标题
+    public var subtitle: String?
+    
+    /// 其他标题
+    public var othertitle: String?
+    
+    /// 右边显示的提醒数字
+    public var badgeValue: String?
+    
+    /// 点击这行cell,需要跳转到哪个控制器
+    public var destVcClass: AnyClass?
     public var detailUrl: String?
-    public var operation: () -> () = {} //var (^operation)(): void    //block
+    
+    /// block
+    public var operation: () -> () = {}
+    
     public var state: Bool = true
     public var type: CellType?
     public var rows: [TableDefault]?
     
-    //主要用来透视显示选择列表的
-    public var lists = [String]() //["主卧","次卧","厨房","卫生间"]
+    /// 主要用来透视显示选择列表的 //["主卧","次卧","厨房","卫生间"]
+    public var lists = [String]()
+    
+    public var accessoryType: UITableViewCell.AccessoryType?
     
     public init(_ title: String, _ icon: UIImage) {
         super.init()
@@ -78,10 +94,16 @@ open class YUListItem: NSObject {
     ///   - title: 大标题
     ///   - subtitle: 副标题
     ///   - type: 类型
-    public init(title: String,subtitle: String = "1",type: CellType?) {
+    public init(_ title: String,_ subtitle: String = "1",_ type: CellType?) {
         super.init()
         self.title = title
         self.subtitle = subtitle
+        self.type = type
+    }
+    
+    public init(_ title: String,_ type: CellType?) {
+        super.init()
+        self.title = title
         self.type = type
     }
     

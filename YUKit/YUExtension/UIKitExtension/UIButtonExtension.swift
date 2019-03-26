@@ -13,9 +13,9 @@ extension UIButton {
     
     public class func initWithC(_ tag: Int,frame: CGRect,imgName: String,target: AnyObject?, action: Selector) -> UIButton {
         let button = UIButton(frame: frame)
-        button.setBackgroundImage(UIImage(named: imgName), for: UIControlState())
+        button.setBackgroundImage(UIImage(named: imgName), for: UIControl.State.normal)
         button.tag = tag
-        button.addTarget(target, action: action, for: UIControlEvents.touchUpInside)
+        button.addTarget(target, action: action, for: UIControl.Event.touchUpInside)
         return button
     }
     
@@ -24,7 +24,7 @@ extension UIButton {
     /// - Parameters:
     ///   - color: 背景色
     ///   - state: 按钮状态
-    public func setBackgroundColor(color: UIColor,state: UIControlState){
+    public func setBackgroundColor(color: UIColor,state: UIControl.State){
         self.setBackgroundImage(color.toImage(), for: state)
     }
 }

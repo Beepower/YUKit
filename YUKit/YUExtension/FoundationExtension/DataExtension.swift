@@ -26,29 +26,22 @@ extension Data {
     }
     
     public func toImage() -> UIImage {
-//        return UIImage(data: self)
+        //return UIImage(data: self)
         return UIImage(data: self, scale: 1.0)!
     }
     
-    
-    
-//    let startIndex = result.value.startIndex
-//    let endIndex = result.value.startIndex.advanced(by: Int(value[1])!)
-//    let ambientData = result.value.subdata(in: startIndex..<endIndex)
-    
-}
-
-
-extension Data {
+    //let startIndex = result.value.startIndex
+    //let endIndex = result.value.startIndex.advanced(by: Int(value[1])!)
+    //let ambientData = result.value.subdata(in: startIndex..<endIndex)
     
     public init<T>(fromArray values: [T]) {
         var values = values
         self.init(buffer: UnsafeBufferPointer(start: &values, count: values.count))
     }
     
-    public func toArray<T>(type: T.Type) -> [T] {
-        return self.withUnsafeBytes {
-            [T](UnsafeBufferPointer(start: $0, count: self.count/MemoryLayout<T>.stride))
-        }
-    }
+//    public func toArray<T>(type: T.Type) -> [T] {
+//        return self.withUnsafeBytes {
+//            [T](UnsafeBufferPointer(start: $0, count: self.count/MemoryLayout<T>.stride))
+//        }
+//    }
 }

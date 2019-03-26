@@ -10,7 +10,7 @@ import UIKit
 
 extension NSString {
     public func sizeWithFont(font:UIFont,maxSize:CGSize) -> CGSize {
-        return self.boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font : font], context: nil).size
+        return self.boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: font], context: nil).size
     }
 }
 
@@ -21,7 +21,7 @@ extension String {
     public func PYFirst() -> String {
         YUPrint(self)
         var py = "#"
-        let str = CFStringCreateMutableCopy(nil, 0, self as CFString!)
+        let str = CFStringCreateMutableCopy(nil, 0, self as CFString?)
         CFStringTransform(str, nil, kCFStringTransformToLatin, false)
         CFStringTransform(str, nil, kCFStringTransformStripCombiningMarks, false)
         py = (str as String?)!
@@ -36,7 +36,7 @@ extension String {
     /// - Returns: 字符串
     public func PY() -> String {
         var py = "#"
-        let str = CFStringCreateMutableCopy(nil, 0, self as CFString!)
+        let str = CFStringCreateMutableCopy(nil, 0, self as CFString?)
         CFStringTransform(str, nil, kCFStringTransformToLatin, false)
         CFStringTransform(str, nil, kCFStringTransformStripCombiningMarks, false)
         py = (str as String?)!
@@ -227,12 +227,12 @@ extension String {
     public func textSizeWithFont(font: UIFont, constrainedToSize size:CGSize) -> CGSize {
         var textSize:CGSize!
         if size.equalTo(CGSize.zero) {
-            let attributes = NSDictionary(object: font, forKey: NSAttributedStringKey.font as NSCopying)
-            textSize = self.size(withAttributes: attributes as? [NSAttributedStringKey : Any])
+            let attributes = NSDictionary(object: font, forKey: NSAttributedString.Key.font as NSCopying)
+            textSize = self.size(withAttributes: attributes as? [NSAttributedString.Key : Any])
         } else {
             let option = NSStringDrawingOptions.usesLineFragmentOrigin
-            let attributes = NSDictionary(object: font, forKey: NSAttributedStringKey.font as NSCopying)
-            let stringRect = self.boundingRect(with: size, options: option, attributes: attributes as? [NSAttributedStringKey : Any], context: nil)
+            let attributes = NSDictionary(object: font, forKey: NSAttributedString.Key.font as NSCopying)
+            let stringRect = self.boundingRect(with: size, options: option, attributes: attributes as? [NSAttributedString.Key : Any], context: nil)
             textSize = stringRect.size
         }
         return textSize
@@ -291,7 +291,7 @@ extension String {
     
     //获取字符串的宽度和高度
     public func getRectSize(text: NSString,font: UIFont,size: CGSize) -> CGRect {
-        let attributes = [NSAttributedStringKey.font: font]
+        let attributes = [NSAttributedString.Key.font: font]
         let option = NSStringDrawingOptions.usesLineFragmentOrigin
         let rect:CGRect = text.boundingRect(with: size, options: option, attributes: attributes, context: nil)
         return rect
@@ -302,20 +302,20 @@ extension String {
     public func getWidth(font: UIFont) -> CGFloat {
         //UIFont.systemFont(ofSize: 18)
         let messtr = self as NSString
-        let width = messtr.size(withAttributes: [NSAttributedStringKey.font: font]).width
+        let width = messtr.size(withAttributes: [NSAttributedString.Key.font: font]).width
         return width
     }
     public func getHeight(font: UIFont) -> CGFloat {
         //UIFont.systemFont(ofSize: 18)
         let messtr = self as NSString
-        let height = messtr.size(withAttributes: [NSAttributedStringKey.font: font]).height
+        let height = messtr.size(withAttributes: [NSAttributedString.Key.font: font]).height
         return height
     }
     
     //纯swift实现
     public func getWH(font: UIFont) -> CGRect {
         //UIFont.systemFont(ofSize: 18)
-        let attributes = [NSAttributedStringKey.font: font] //设置字体大小
+        let attributes = [NSAttributedString.Key.font: font] //设置字体大小
         let option = NSStringDrawingOptions.usesLineFragmentOrigin
         //这里有个参数1——width和参数2——heigh经测试应该是设置横向和纵向的最大计算宽度和高度，如有不妥希望指出，相互学习，谢谢。（即当宽度接近与320.0时，就会换行，通过改变高度来计算字符串长度）
         let rect: CGRect = self.boundingRect(with: CGSize.init(width: 320.0, height: 999.9), options: option, attributes: attributes, context: nil)//获取字符串的frame
@@ -357,7 +357,7 @@ extension String {
         let style = NSMutableParagraphStyle()
         style.lineBreakMode = breakMode
         
-        let attributes = [NSAttributedStringKey.font: font, NSAttributedStringKey.paragraphStyle: style.copy()];
+        let attributes = [NSAttributedString.Key.font: font, NSAttributedString.Key.paragraphStyle: style.copy()];
         
         // 强转成NSString
         let text = self as NSString
@@ -404,8 +404,8 @@ extension String {
     public func lastColorString(_ name: String,fsize: CGFloat,color: UIColor) -> NSMutableAttributedString {
         let AttributedStrss: NSMutableAttributedString = NSMutableAttributedString(string: name)
         let range: NSRange = NSMakeRange(name.count-1, 1)//NSMakeRange(name.characters.count-1, 1)
-        AttributedStrss.addAttribute(NSAttributedStringKey.font, value: UIFont.systemFont(ofSize: fsize), range: range)
-        AttributedStrss.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: range)
+        AttributedStrss.addAttribute(NSAttributedString.Key.font, value: UIFont.systemFont(ofSize: fsize), range: range)
+        AttributedStrss.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: range)
         return AttributedStrss
     }
     //MARK: font

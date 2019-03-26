@@ -15,7 +15,8 @@ extension UIImage {
     /// - Parameter compressionQuality: 压缩比例0-1
     /// - Returns: 返回data
     public func toData(_ compressionQuality: CGFloat = 0.75) -> Data {
-        return UIImageJPEGRepresentation(self, compressionQuality)!
+        return self.jpegData(compressionQuality: compressionQuality)!
+        //return UIImageJPEGRepresentation(self, compressionQuality)!
     }
     
     public static func createImage(color: UIColor, size: CGSize) -> UIImage? {

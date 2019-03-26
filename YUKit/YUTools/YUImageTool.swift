@@ -94,7 +94,8 @@ open class YUImageTool: NSObject {
         
         //let pngTime = YUFile.pngTime()
         let pngurl = YUFile.getPath()+pngname+".png"
-        try! UIImagePNGRepresentation(resultImg)?.write(to: URL.init(fileURLWithPath: pngurl))
+        try? resultImg.pngData()?.write(to: URL(fileURLWithPath: pngurl))
+        //try! UIImagePNGRepresentation(resultImg)?.write(to: URL.init(fileURLWithPath: pngurl))
         return pngname+".png"//pngTime //resultImg
     }
     

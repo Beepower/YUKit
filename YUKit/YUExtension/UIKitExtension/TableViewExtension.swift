@@ -108,7 +108,7 @@ extension UITableView {
         //MARK: - 可以参考设置页面
         self.sectionFooterHeight = 0;
         //self.tableView.sectionHeaderHeight = 18;
-        self.contentInset = UIEdgeInsetsMake(20-36, 0, 0, 0)
+        self.contentInset = UIEdgeInsets(top: 20-36, left: 0, bottom: 0, right: 0)
         //self.tableView.backgroundColor=[UIColor redColor];//设置全局背景色YYGlobalBg;
         //self.tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
         //self.tableView.hideSeparatorLeftInset()
@@ -122,7 +122,7 @@ extension UITableView {
         //MARK: - 可以参考设置页面
         self.sectionFooterHeight = 0;
         //self.tableView.sectionHeaderHeight = 18;
-        self.contentInset = UIEdgeInsetsMake(20-36-x, 0, 0, 0)
+        self.contentInset = UIEdgeInsets(top: 20-36-x, left: 0, bottom: 0, right: 0)
         //self.tableView.backgroundColor=[UIColor redColor];//设置全局背景色YYGlobalBg;
         //self.tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
         //self.tableView.hideSeparatorLeftInset()
@@ -134,13 +134,13 @@ extension UITableView {
      */
     public func setGroupHeaderZeroFrame() {
         self.sectionFooterHeight = 0;
-        self.contentInset = UIEdgeInsetsMake(20-36-20, 0, 0, 0)
+        self.contentInset = UIEdgeInsets(top: 20-36-20, left: 0, bottom: 0, right: 0)
     }
     
     
     public func setGroupHeaderZeroFrame(x: CGFloat) {
         self.sectionFooterHeight = 0;
-        self.contentInset = UIEdgeInsetsMake(-10, 0, 0, 0)
+        self.contentInset = UIEdgeInsets(top: -10, left: 0, bottom: 0, right: 0)
     }
     
 }
